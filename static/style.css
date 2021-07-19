@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color:rgba(105, 35, 10, 0.374);
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    background-color:black;
+    border-radius: 10px;
+}
+
+#introSection {
+    font-family: 'Oswald', sans-serif;
+    background:url("../static/bru.jpg") no-repeat center center/cover ;
+    height: 450px;
+    background-color:orange;
+    color:white;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    font-size: 3.2rem;
+}
+
+#introSection div.small{
+    font-family: 'Oswald', sans-serif;
+    font-size:2.2rem;
+
+}
+
+#missionSection {
+    font-family: 'Bitter', serif;
+    font-size: 1.8rem; 
+    height: 350px;
+    text-align: center;
+    padding: 13px;
+    color: black;
+}
+.cards {
+    background-color: rgb(243, 225, 243);
+    border:2px solid black;
+  border-radius:10px;
+  width:20%;
+  margin: 20px;
+  height: 250px;
+  display:inline-block;
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+}
+#sponsorSection{
+    font-family: 'Bitter', serif;
+    font-size: 1.8rem;
+    height: 300px;
+    background-color:lightblue;
+    text-align: center;
+    padding: 13px;
+}
+#sponsors{
+   margin: 20px;
+   height: 150px;
+   padding: 25px; 
+   
+}
+.spimage{
+    display:inline-block;
+    width: 144px;
+    height: 100px;
+    margin:0 20px;
+}
+    
+#footer{
+    height: 33px;
+    background-color:rgba(110, 75, 63, 0.374);
+    text-align: center;
+    font-size:1.5rem ;
+    /* color: white; */
+}
+
+
+
+#contactUs{
+    height:89vh;
+    text-align: center;
+}
+
+#contactUs h1{
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+.formdiv{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.myForm {
+    width:70%;
+    margin:20px 20px;
+    font-size: 1.2rem;
+}
+input[type='button']{
+   font-size: 1.2rem;
+   padding: 2px;
+   background-color: #841010;
+   border: 2px solid black;
+   color: white;
+}

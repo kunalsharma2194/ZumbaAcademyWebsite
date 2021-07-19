@@ -1,0 +1,26 @@
+extend base.pug
+
+block scripts  
+    script(src="/static/index.js")   
+
+block style 
+    style 
+     include ../static/style.css
+
+block content 
+    nav#navbar
+           ul 
+             li #[a(href="/")  Home ]
+             li #[a(href="/")  About]    
+             li #[a(href="/")  Services]     
+             li #[a(href="/")  About]
+             li #[a(href="/contact")  Contact Us]
+    section#contactUs 
+       h1 Contact Form
+       form(action="#",method="POST",class="formdiv") 
+          input(type="text",class="myForm", name="name",placeholder="Enter your name")   
+          input(type="email",class="myForm", name="email",placeholder="Enter your email-id")   
+          input(type="address",class="myForm", name="number",placeholder="Enter your Address")   
+          input(type="number",class="myForm", name="name",placeholder="Enter your number")   
+        
+          input(type="button", value="Submit")
